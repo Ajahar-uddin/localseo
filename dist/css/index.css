@@ -1,0 +1,538 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 40px !important;
+    line-height: 1;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+.btn-primary{
+    background: linear-gradient(to right,#be007b,#ed3237);
+}
+
+
+.btn-big{
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+
+.btn-primary:hover {
+    background: linear-gradient(to left,#be007b,#ed3237);
+}
+.btn-normal{
+    background: #f2780c;
+}
+.btn-normal:hover {
+    background: linear-gradient(to right,#be007b,#ed3237);
+}
+
+
+@media (min-width: 450px) {
+    h1{
+        font-size: 49px !important;
+        line-height: 1;
+    }
+    .btn-big{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* .brandLogoImg img {
+    height: 51px;
+} */
+.toptextSection {}
+
+.topText {
+    width: 57.8%;
+
+}
+
+.topText h1 {
+    font-size: 49px;
+
+    color: #111b4d !important;
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.middleText {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url(https://www.animonlive.com/wp-content/uploads/2022/12/white-splash-1.png);
+
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    margin-right: 7%;
+
+
+}
+
+.middleText h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #111b4d !important;
+    line-height: 1.4em;
+    text-align: left;
+    margin-bottom: 10px !important;
+    font-weight: 500;
+}
+
+.topPara {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.topPara p {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.topImg {
+    width: 36.7%;
+    background-image: url(https://www.animonlive.com/wp-content/uploads/2023/02/Local-SEO-business.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.topImg img {}
+
+.btnContainer {
+    padding-top: 10px;
+    padding-bottom: 34px;
+}
+
+.BtnTalk {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    padding: 10px 25px;
+    font-size: 22px;
+    background: linear-gradient(to right, #be007b, #ed3237);
+    border-radius: 50px;
+    color: #fff;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    transition: all 200ms ease-in;
+    margin-right: 4px;
+}
+
+.BtnTalk:hover {
+    background: linear-gradient(to right, #ed3237, #be007b);
+}
+
+.BtnSeo {
+    text-align: center;
+    width: 250px;
+    padding: 10px 25px;
+    background: #f2780c;
+    font-weight: 300;
+    font-size: 19px !important;
+    border-radius: 50px;
+    color: #fff;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    transition: all 200ms ease-in;
+}
+
+.BtnSeo:hover {
+    background: linear-gradient(to right, #ed3237, #be007b);
+}
+
+
+.heroSection {
+    padding: 54px 0;
+    background: url(https://www.animonlive.com/wp-content/uploads/2023/02/Local-SEO-Google-local-searchesi-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+    padding-bottom: 60px;
+}
+
+.heroTitle {
+    text-align: center;
+    background: url(https://www.animonlive.com/wp-content/uploads/2023/02/Local-SEO-Google-local-searches.webp);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 27px 0;
+}
+
+.heroTitle h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: #111b4d !important;
+    line-height: 1.2em;
+    font-weight: 500;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+}
+
+.heroTitle strong {
+    font-weight: 700;
+}
+
+.heroItems {
+    margin-top: 50px;
+    padding: 27px 0px;
+    gap: 32px;
+    overflow-x: visible;
+}
+
+.cards-container {
+    background-color: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.07);
+
+
+}
+
+.cards-container img {
+    padding: 10px 0 30px 0;
+}
+
+.cards-text {
+    text-align: center;
+    color: #243e63;
+    font-size: 22px;
+    line-height: 28.6px;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.heroBtnsection {
+    padding-top: 27px;
+}
+
+.heroBtnsection p {
+    text-align: center;
+    font-weight: 600;
+    line-height: 33.6px;
+    font-size: 24px;
+    color: #474747;
+    letter-spacing: 0.8px;
+}
+
+.heroBtn {
+    
+    padding: 15px 30px !important;
+    background: linear-gradient(to right, #be007b, #ed3237);
+    border-radius: 50px;
+    color: #fff;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+
+}
+
+.heroBtn:hover {
+    background: linear-gradient(to right, #ed3237, #be007b);
+}
+
+.seoSection {
+    padding-top: 60px;
+    background-attachment: fixed;
+    background-image: url(/images/0.png) ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.seoHeading {
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #ed3237 0%, #be007b 100%);
+    clip-path: polygon(0 0, 100% 4%, 95% 98%, 10% 100%);
+}
+
+.seoHeading h3 {  
+    color: #FFFFFF !important;
+    line-height: 1em;
+}
+
+.seoAccordian {
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.14);
+    padding: 27px 0px;
+    margin: 48px 0px 27px 0;
+
+
+}
+
+.accordian-container {
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgba(173, 173, 173, 0.22);
+    margin-bottom: 21px;
+}
+
+.accordian-container:last-child {
+    margin-bottom: 0px;
+}
+
+.accordian-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.accordian-content img {
+    height: 28px;
+    width: 32px;
+}
+
+.accordian-content h4 {
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #243e63;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.seoBtn {
+    margin-top: 16px;
+}
+
+.videoSection {
+    background: url(/images/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 54px 0;
+    margin-top: 60px;
+    margin-bottom: 77px;
+}
+
+.videoText {
+    padding-top: 27px;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 37px;
+}
+
+.videoText2 h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: #111b4d !important;
+    line-height: 1.4em;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.videoPara p {
+    color: #E06100 !important;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4em;
+    letter-spacing: 0.8px;
+
+}
+
+.border {
+    border-top: 1px solid black;
+    width: 320px;
+    margin: 24px auto 10px auto;
+
+
+}
+
+.videoTitle h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #243e63;
+    padding: 27px;
+    padding-bottom: 39px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.video-img {
+    max-width: 650px;
+    border-radius: 10px;
+}
+
+.border-gray {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 650px;
+    margin: 38px auto;
+}
+
+.video-desc {
+    color: #111b4d !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.guideSection {
+    background-color: rgba(254, 220, 220, 0.32) !important;
+}
+
+.guideTitle h3 {
+    font-weight: 300;
+    color: #111b4d !important;
+    line-height: 1.3em;
+    text-align: center;
+}
+.stepTitle {
+    
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(/images/28.png);
+    padding-left: 15px!important;
+}
+.stepTitle2 {
+    
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(/images/32.png);
+    padding-left: 15px!important;
+}
+.stepTitle3 {
+    
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(/images/34.png);
+    padding-left: 15px!important;
+}
+.stepTitle ,.stepTitle2  ,.stepTitle3 {
+    color:#fff;
+    font-size: 30px;
+    line-height: 1.9em;
+}
+
+.knowHeading {
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #ed3237 0%, #be007b 100%);
+    clip-path: polygon(0 0, 100% 4%, 95% 98%, 10% 100%);
+    margin: 20px 0;
+}
+.fact {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.8em;
+    padding-left: 50px;
+    max-width: 200px;
+    clip-path: polygon(0 0,100% 4%,95% 98%,10% 100%);
+    margin-bottom: 24px;
+}
+.fact-h4 {
+    font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #111b4d;
+    line-height: 1.2em;
+}
+.polygonHeading {
+    background: linear-gradient(180deg, #ed3237 0%, #be007b 100%);
+    clip-path: polygon(0 0, 100% 4%, 95% 98%, 10% 100%);
+}
+.agencyPara {
+    font-weight: 300;
+    padding-bottom: 10px;
+    line-height: 1.6em;
+}
+.agencyPara strong {
+    font-weight: 700;
+}
+.localseo {
+    background: url(https://www.animonlive.com/wp-content/uploads/2023/02/Local-SEO-is-perfect-for-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.opportunity {
+    background: url(/images/4.png);
+    background-color: #18244e;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:54px ;
+}
+.businessprofile {
+    background: url(https://www.animonlive.com/wp-content/uploads/2022/12/pattern.png);
+}
+
+.faq{
+    border-bottom: 5px solid #fa9c04;
+}
+
+.faq-answer{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-in-out; 
+}
+
+.faq.open .faq-answer{
+    grid-template-rows: 1fr;
+    padding-top: 10px;
+}
+footer {
+    background: url(/images/4.png);
+    background-size: initial;
+    background-position: 10% 60%;
+    background-color: #111b4d;
+}

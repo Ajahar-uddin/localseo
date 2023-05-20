@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 40px !important;
+    line-height: 1;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+.btn-primary{
+    background: linear-gradient(to right,#be007b,#ed3237);
+}
+.btn-primary:hover {
+    background: linear-gradient(to left,#be007b,#ed3237);
+}
+.btn-normal{
+    background: #f2780c;
+}
+.btn-normal:hover {
+    background: linear-gradient(to right,#be007b,#ed3237);
+}
+
+
+.heroTitle {
+    text-align: center;
+    background: url(https://www.animonlive.com/wp-content/uploads/2023/02/Local-SEO-Google-local-searches.webp);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 27px 0;
+}
+
+@media (min-width: 450px) {
+    h1{
+        font-size: 49px !important;
+        line-height: 1;
+    }
+}
