@@ -286,7 +286,7 @@ h1{
 .seoSection {
     padding-top: 60px;
     background-attachment: fixed;
-    background-image: url(/images/0.png) ;
+    background-image: url(/dist/assets/0.png) ;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -351,7 +351,7 @@ h1{
 }
 
 .videoSection {
-    background: url(/images/3.png);
+    background: url(/dist/assets/3.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 54px 0;
@@ -437,7 +437,7 @@ h1{
     background-size: contain;
     background-position: left center;
     background-repeat: no-repeat;
-    background-image: url(/images/28.png);
+    background-image: url(/dist/assets/28.png);
     padding-left: 15px!important;
 }
 .stepTitle2 {
@@ -445,7 +445,7 @@ h1{
     background-size: contain;
     background-position: left center;
     background-repeat: no-repeat;
-    background-image: url(/images/32.png);
+    background-image: url(/dist/assets/32.png);
     padding-left: 15px!important;
 }
 .stepTitle3 {
@@ -453,7 +453,7 @@ h1{
     background-size: contain;
     background-position: left center;
     background-repeat: no-repeat;
-    background-image: url(/images/34.png);
+    background-image: url(/dist/assets/34.png);
     padding-left: 15px!important;
 }
 .stepTitle ,.stepTitle2  ,.stepTitle3 {
@@ -505,7 +505,7 @@ h1{
     
 }
 .opportunity {
-    background: url(/images/4.png);
+    background: url(/dist/assets/4.png);
     background-color: #18244e;
     background-position: center;
     background-size: cover;
@@ -531,7 +531,7 @@ h1{
     padding-top: 10px;
 }
 footer {
-    background: url(/images/4.png);
+    background: url(/dist/assets/4.png);
     background-size: initial;
     background-position: 10% 60%;
     background-color: #111b4d;
